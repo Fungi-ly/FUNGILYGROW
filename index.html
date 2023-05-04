@@ -50,36 +50,28 @@
 
 
      <div class="container">
- 
-      <nav class="navbar navbar-expand-lg opaco mb-4 navbar-collapse fixed-top barrita">
-        
-        <img class="navbar-brand img-responsive text-white fs-1" src="assets/img/logo.png" width="110" height="110" alt="logo">  </img>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top w-100">
+        <img class="navbar-brand img-responsive text-white fs-1" src="assets/img/logo.png" width="110" height="110" alt="logo">  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      </div>      
-      <div class="collapse navbar-collapse navbar navbar-expand-lg" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto pr-5">
-          <li class="nav-item active">
-            <a class="nav-link fuente d-block d-lg-none" href="#">Inicio <span class="sr-only">(current)</span></a>
-            <a class="nav-link fuente d-none d-lg-block" href="#">Inicio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item d-none d-lg-block">
-            <a class="nav-link fuente" href="#Menu">Productos</a>
-          </li>
-          <li class="nav-item d-none d-lg-block">
-            <a class="nav-link fuente" href="#precio">Precios</a>
-          </li>
-          <li class="nav-item d-none d-lg-block">
-            <a class="nav-link fuente" href="#contacto">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fuente d-block d-lg-none" href="#encarga_aqui">Mayoristas</a>
-            <a class="nav-link fuente d-none d-lg-block" href="#encarga_aqui">Mayoristas</a>          </li>
-        </ul>
-      </div>   </nav>
-
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Menu">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#precio">Precios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                        </ul>
+        </div>
+    </nav>
     <main class="container">
       <header>
         
@@ -101,7 +93,7 @@
             <div class="text-center border-top border-dark mt-4 rojo">
               <h4 class=" text-center mt-5 blue" id="a"> Kit de cultivo Inicio  $49.990</h4>
               <h4 class=" text-center mt-2 blue" id="b"> Kit de cultivo Pro $59.990</h4>
-              <h4 class=" text-center mt-2 blue" id="c"> Kit de cultivo Pro avanzado  $89.990</h4>              
+              <h4 class=" text-center mt-2 blue" id="c"> Kit de cultivo Pro  $89.990</h4>              
               <h4 class=" text-center mt-2 blue" id="d"> Kit de cultivo Full  $129.990</h4>          
               <h4 class=" text-center mt-2 blue" id="k"> Esporas de coleccion :$ 24.990</h4>            
          
@@ -652,10 +644,10 @@ Las esporas Pensacola son fáciles de identificar y cultivar en casa, lo que las
                 </p>
                 <button class="btn btn-danger add-to-cart mb-3" id="myButton" data-id="6" data-name="Sustrato Arroz Integral"  data-size="small"  >Agregar al carrito</button> 
                 <select class="form-control product-size">
-                  <option value="Sustrato Arroz Integral 1L" data-price="5990">Sustrato Arroz Integral 1L</option>
-                  <option value="Sustrato Arroz Integral 2L" data-price="9990">Sustrato Arroz Integral 2L</option>
-                  <option value="Sustrato Arroz Integral 3L" data-price="14990">Sustrato Arroz Integral 3L</option>
-                  <option value="Sustrato Arroz Integral 4L" data-price="18990">Sustrato Arroz Integral 4L</option>
+                  <option value="Sustrato Arroz Integral 1L" data-price="5990">Estiercol de Vaca 1L</option>
+                  <option value="Sustrato Arroz Integral 2L" data-price="9990">Estiercol de Vaca 2L</option>
+                  <option value="Sustrato Arroz Integral 3L" data-price="14990">Estiercol de Vaca 3L</option>
+                  <option value="Sustrato Arroz Integral 4L" data-price="18990">Estiercol de Vaca 4L</option>
                  
                 </select>           
               </div>
@@ -705,9 +697,9 @@ Las esporas Pensacola son fáciles de identificar y cultivar en casa, lo que las
              </p>
              <button class="btn btn-danger add-to-cart mb-3" id="myButton" data-id="6" data-name=" Jeringas"  data-size="small"  >Agregar al carrito</button> 
              <select class="form-control product-size">
-               <option value=" Jeringa 5ml" data-price="990"> Jeringa 5ml</option>
-               <option value=" Jeringa 10ml" data-price="1490">Jeringa 10ml</option>
-               <option value=" Jeringa 20ml" data-price="1990"> Jeringa 20ml</option>
+               <option value=" Jeringa 5ml" data-price="990"> Sustrato Centeno 1L</option>
+               <option value=" Jeringa 10ml" data-price="1490"> Sustrato Centeno 2L</option>
+               <option value=" Jeringa 20ml" data-price="1990"> Sustrato Centeno 3L</option>
             
               
              </select>           
@@ -962,7 +954,7 @@ Las esporas Pensacola son fáciles de identificar y cultivar en casa, lo que las
        
       </footer>
      <footer class="text-center">
-           <h1 class="navbar-brand text-dark  ">¿Para que sirven?</h1>
+           <h1 class="navbar-brand text-dark  ">¿Usos para tus Fungis?</h1>
            <p class=" text-dark"> Los hongos mágicos, bendiciones de la naturaleza, han sido usados por siglos en ceremonias religiosas y rituales curativos. Desde una perspectiva filosófica, estas herramientas nos permiten explorar nuestro interior, expandir nuestra conciencia y conectarnos con la divinidad presente en nosotros y en el universo.
 
             Estos hongos pueden ayudarnos a comprender mejor nuestro lugar en el mundo y a apreciar la vida y la naturaleza en general. Además, estudios han demostrado que pueden ser efectivos en tratar afecciones como la depresión, ansiedad y trastorno de estrés postraumático. Los compuestos psicoactivos que contienen, como la psilocibina, actúan sobre los receptores de serotonina en el cerebro, mejorando el estado de ánimo y reduciendo la ansiedad.
@@ -1041,3 +1033,4 @@ Las esporas Pensacola son fáciles de identificar y cultivar en casa, lo que las
     
   </body>
 </html>
+
